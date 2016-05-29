@@ -1,0 +1,9 @@
+<!-- START untag.html -->
+<section>
+	<h2> {{domanda}}</h2>
+	<input type="text" #rispostaUtente (keyup)="0">
+	<h3 *ngIf= "rispostaUtente == {{risposta}}">
+		Risposta Corretta
+	</h3>
+</section>
+<!-- END untag.html -->
